@@ -17,6 +17,10 @@ Es gibt keine weiteren Nutzer.</p>
 (z.&nbsp;B. Kalendertermine, E-Mails, Aufgaben, Drive-Dateien), um sie in seinem persönlichen Dashboard anzuzeigen.
 Außerdem legt die Anwendung täglich eine verschlüsselte Sicherung der eigenen Dashboard-Daten im Google Drive des Eigentümers ab
 (Recht „drive.file“: Zugriff nur auf Dateien, die die Anwendung selbst angelegt hat).</p>
+<p>Termine, die der Eigentümer über seinen persönlichen Telegram-Bot oder das Dashboard festhält, trägt die Anwendung in seinen
+eigenen Google-Kalender ein (Recht „calendar.events“). Nachrichten an den Bot werden über die Telegram-Bot-API empfangen;
+der Bot antwortet ausschließlich dem Chat des Eigentümers. Sprachnachrichten werden lokal auf dem Rechner des Eigentümers
+in Text umgewandelt.</p>
 <p>Zusätzlich ist der eigene Notion-Workspace des Eigentümers angebunden: Die Anwendung liest und bearbeitet dort nur
 die ausdrücklich freigegebene Seite „Cockpit“ (Aufgaben abhaken, Notizen anlegen). Daten aus Google-Konten werden
 nicht an Notion übertragen.</p>
